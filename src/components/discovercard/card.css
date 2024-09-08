@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+body,
+.card-header,
+.nav-link,
+.card-title,
+.card-text,
+.btn,
+.cardtop {
+  font-family: "Poppins", sans-serif;
+}
+
+.card-title,
+.card-text,
+.btn,
+.nav-link,
+.cardtop {
+  font-weight: 400;
+}
+
+.card-title {
+  font-weight: 600;
+}
+
+.btn {
+  font-weight: 500;
+}
+
+.discovercard {
+  margin-top: 50px;
+}

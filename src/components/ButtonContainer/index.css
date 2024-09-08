@@ -1,0 +1,26 @@
+.button-group {
+  display: flex;
+  justify-content: space-around;
+  gap: 5px;
+}
+
+.buttonlabel {
+  position: relative;
+  border: 1px solid #6e55ff;
+  transition: background-color 0.3s, color 0.3s;
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.btn:hover {
+  background-color: black;
+  color: white;
+}
+
+.btn.active {
+  background-color: #6e55ff;
+  color: white;
+}

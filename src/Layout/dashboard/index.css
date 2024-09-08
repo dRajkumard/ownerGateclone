@@ -1,0 +1,56 @@
+.card {
+  width: 100%;
+}
+
+.dashboarrow {
+  display: flex;
+  height: 100vh;
+  /* flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+}
+
+.default-font-med {
+  color: #1c1c1e;
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1.2;
+  font-family: "DejaVu Sans", sans-serif;
+  text-align: center;
+  word-wrap: break-word;
+  padding: 0 1rem;
+}
+
+.custom-btndashboard {
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .default-font-med {
+    font-size: 2rem;
+    line-height: 1.3;
+    padding: 0 0.5rem;
+  }
+
+  .custom-btndashboard {
+    padding: 10px;
+    font-size: 0.875rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .default-font-med {
+    font-size: 1.5rem;
+  }
+
+  .custom-btndashboard {
+    padding: 8px;
+    font-size: 0.75rem;
+  }
+}
