@@ -3,15 +3,11 @@
 }
 
 .dashboarrow {
-  display: flex;
   height: 100vh;
-  /* flex-direction: column;
-  justify-content: center;
-  align-items: center; */
 }
 
 .default-font-med {
-  color: #1c1c1e;
+  color: #0c0c0c;
   font-size: 2.5rem;
   font-weight: 700;
   line-height: 1.2;
@@ -21,14 +17,22 @@
   padding: 0 1rem;
 }
 
-.custom-btndashboard {
-  padding: 15px;
+.custombtndashboard {
+  padding: 15px !important;
+  font-size: 15px;
+  font-weight: 700 !important;
   border-radius: 10px;
   font-size: 1rem;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
+  background-color: #0c0c0c !important;
+  color: white !important;
+}
+
+.discoverbuttoncontainer {
+  margin-top: 10px;
 }
 
 @media (max-width: 768px) {

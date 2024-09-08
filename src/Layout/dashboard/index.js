@@ -8,18 +8,18 @@ const BodyComponent = () => {
   return (
     <div className="container-fluid bodycomponent ">
       <div className="row dashboarrow d-flex  justify-content-center align-items-center">
-        <div className="col-md-5 d-flex flex-column  justify-content-center heading">
+        <div className="col-md-5 d-flex flex-column justify-content-center align-items-center heading">
           <div class="text-container">
             <h1 class="default-font-med">
               Invest in your property by selling, buying or renting
             </h1>
           </div>
-          <div class=" d-flex flex-column align-items-start gap-3 discoverbuttoncontainer">
-            <button class="btn btn-dark custom-btndashboard" type="button">
+          <div class=" d-flex flex-column align-items-center discoverbuttoncontainer gap-3 ">
+            <button class="btn  custombtndashboard" type="button">
               <FaHome className="me-2" /> Sale and Estimate For Your Property
             </button>
-            <div class="col-6 d-flex justify-content-center">
-              <button class="btn btn-dark custom-btndashboard" type="button">
+            <div class="col-6 ">
+              <button class="btn  custombtndashboard" type="button">
                 <FaSortAmountDown className="me-2" /> Auction
               </button>
             </div>

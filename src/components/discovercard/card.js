@@ -3,7 +3,7 @@ import { FaSearch } from "react-icons/fa";
 import ButtonGroupComponent from "../ButtonContainer";
 import "./card.css";
 const CardComponent = () => {
-  const [activeButton, setActiveButton] = useState(null);
+  const [activeButton, setActiveButton] = useState("All");
   const buttonLabels = ["All", "Buy", "Rent", "Sale", "Find"];
 
   const handleButtonClick = (label) => {
@@ -67,7 +67,7 @@ const CardComponent = () => {
               <input
                 className="form-control"
                 type="search"
-                placeholder="Search"
+                placeholder="Enter key words to search..."
                 aria-label="Search"
                 style={{ borderRadius: "10px 0 0 10px" }}
               />

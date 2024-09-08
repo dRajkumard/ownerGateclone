@@ -8,9 +8,9 @@ const ButtonGroupComponent = () => {
 
   return (
     <div className="button-group mb-3">
-      {" "}
       {buttonLabels.map((label, index) => (
         <button
+          type="button"
           key={index}
           className={`btn buttonlabel ${
             activeButton === label ? "active" : ""
